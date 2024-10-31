@@ -1,0 +1,81 @@
+CSS  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #525252;
+    font-family: unset;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: #000000;
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+.voce {
+    color: rgb(2, 134, 19);
+}
+
+.Atendentea {
+    color: rgb(201, 201, 201);
+}
+
+.mensagens {
+    background-color: rgb(2, 134, 19);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+    max-width: 60%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mensagens11 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+    max-width: 285px;
+    box-shadow: 0 0px 0px rgba(219, 0, 0, 0.2);
+}
+
+.Digitavel {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.botao {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(2, 134, 19);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: rgb(2, 134, 19);
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
